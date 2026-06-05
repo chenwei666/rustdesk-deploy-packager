@@ -1,0 +1,22 @@
+# Build outputs
+*.exe
+*.pdb
+*.user
+bin/
+obj/
+
+# Embedded third-party installers and generated customer packages
+rustdesk-*.exe
+RustDesk-*-Setup.exe
+RustDesk-Custom-Setup.exe
+RustDesk-Aachen-Setup.exe
+
+# Local/private deployment scripts
+install-rustdesk-aachen.ps1
+RustDeskAachenSetup.cs
+
+# OS/editor files
+Thumbs.db
+Desktop.ini
+.vs/
+.idea/
