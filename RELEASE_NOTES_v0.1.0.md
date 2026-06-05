@@ -1,4 +1,4 @@
-# RustDesk Deploy Packager v0.1.0
+﻿# RustDesk Deploy Packager v0.1.0 / RustDesk 私有化部署封装器 v0.1.0
 
 ## English
 
@@ -10,7 +10,7 @@ This release provides a bilingual Windows generator that creates a single RustDe
 
 RustDesk 私有化部署封装器 v0.1.0 是首个正式公开版本。
 
-本版本提供一个中英文双语 Windows 生成器，可以生成内嵌私有化服务器配置的单文件 RustDesk 部署 EXE。支持下载官方最新版 RustDesk Windows x64 安装包、生成自包含安装包、自动写入服务器配置、开启 IP 直接访问、配置开机启动、安装服务，并在安装完成后自动打开 RustDesk。
+本版本提供一个中英文双语 Windows 生成器，可以生成内嵌私有化服务器配置的单文件 RustDesk 部署 EXE。它支持下载官方最新版 RustDesk Windows x64 安装包、生成自包含安装包、自动写入服务器配置、开启 IP 直接访问、配置开机启动、安装服务，并在安装完成后自动打开 RustDesk。
 
 ## Assets / 附件
 

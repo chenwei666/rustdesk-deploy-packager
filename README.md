@@ -1,8 +1,8 @@
-# RustDesk Deploy Packager / RustDesk 私有化部署封装器
+﻿# RustDesk Deploy Packager / RustDesk 私有化部署封装器
 
 > Build a single Windows setup EXE that installs RustDesk and writes your self-hosted server configuration automatically.
 >
-> 生成单个 Windows 安装 EXE，自动安装 RustDesk 并写入你的私有化服务器配置。
+> 生成一个 Windows 单文件安装 EXE，自动安装 RustDesk 并写入你的私有化服务器配置。
 
 ## English
 
