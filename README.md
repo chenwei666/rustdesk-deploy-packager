@@ -51,15 +51,24 @@ Requirements:
 Build the icon:
 
 ```powershell
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:exe /platform:anycpu /reference:System.Drawing.dll /out:MakeGeneratorIcon.exe MakeGeneratorIcon.cs
-.\MakeGeneratorIcon.exe
+.\scripts\build.ps1
 ```
 
-Build the generator:
+The output is written to:
 
 ```powershell
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /codepage:65001 /target:winexe /platform:anycpu /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /win32icon:RustDeskConfigGenerator.ico /out:RustDeskConfigGenerator.exe RustDeskConfigGenerator.cs
+dist\release\RustDeskConfigGenerator.exe
 ```
+
+### Repository Layout
+
+- `src/` - application source code.
+- `assets/` - application icon.
+- `scripts/` - build scripts.
+- `docs/` - release notes.
+- `dist/` - local build outputs, not committed.
+- `vendor/` - downloaded RustDesk installers, not committed.
+- `private/` - local/private deployment packages, not committed.
 
 ## 中文
 
@@ -108,15 +117,24 @@ RustDesk 私有化部署封装器是一个轻量级 Windows 工具，适合需�
 生成图标：
 
 ```powershell
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:exe /platform:anycpu /reference:System.Drawing.dll /out:MakeGeneratorIcon.exe MakeGeneratorIcon.cs
-.\MakeGeneratorIcon.exe
+.\scripts\build.ps1
 ```
 
-编译生成器：
+输出文件位于：
 
 ```powershell
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /codepage:65001 /target:winexe /platform:anycpu /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /win32icon:RustDeskConfigGenerator.ico /out:RustDeskConfigGenerator.exe RustDeskConfigGenerator.cs
+dist\release\RustDeskConfigGenerator.exe
 ```
+
+### 目录结构
+
+- `src/` - 应用源码。
+- `assets/` - 应用图标。
+- `scripts/` - 构建脚本。
+- `docs/` - 发布说明。
+- `dist/` - 本地构建产物，不提交。
+- `vendor/` - 下载的 RustDesk 官方安装包，不提交。
+- `private/` - 本地/私有部署包，不提交。
 
 ## Release
 
